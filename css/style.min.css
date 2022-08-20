@@ -9739,6 +9739,8 @@ body.theme-switch-animate::before {
   background: rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 1035px) {
+
+
   .header__logo--img {
     max-width: 150px;
   }
@@ -18208,7 +18210,16 @@ div[id="trading"] .chart-zoom-btns {
     transition: none;
   }
 }
+
+@media (max-width: 1280px) {
+      .forecast__table--name-prompt--loss {
+    right: 17%;
+  }
+}
+
 @media (max-width: 1199.98px) {
+
+
   .table-responsive-xl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -18395,6 +18406,10 @@ div[id="trading"] .chart-zoom-btns {
   }
 }
 @media (max-width: 767.98px) {
+  .learing-center__block-header--buyBtn {
+    margin: 0 auto;
+  }
+
   .table-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
